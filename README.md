@@ -63,7 +63,7 @@
 
 # GitHub 源码下载
 
-分享到此介绍了，说了这么多，还是要看代码运行情况，来吧，跑起来：https://github.com/AnyLifeZLB/MaskDetection
+分享到此结束了，说了这么多，还是要看代码运行情况，来吧，跑起来：https://github.com/AnyLifeZLB/MaskDetection
 
 完整的训练数据托管在百度：链接: https://pan.baidu.com/s/1to2hKZ-wue3eJ5Cq3aUOTg 密码: re0i
 解压后请打开train_image 文件夹
