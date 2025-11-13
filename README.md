@@ -69,9 +69,9 @@
 解压后请打开train_image 文件夹
 
 
-# 下一篇：[FaceAI SDK接入源码](https://github.com/AnyLifeZLB/FaceVerificationSDK)
+# 下一篇：[FaceAI SDK接入源码](https://github.com/FaceAISDK/FaceAISDK_Android)
 
-[FaceAI SDK人脸识别接入源码 点击这里](https://github.com/AnyLifeZLB/FaceVerificationSDK)
+[FaceAI SDK人脸识别接入源码 点击这里](https://github.com/FaceAISDK/FaceAISDK_Android)
 
 ## References
 
