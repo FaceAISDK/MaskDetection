@@ -347,7 +347,7 @@ class ObjectDetectorHelper(
         const val DELEGATE_GPU = 1
         const val MODEL_MASK = 0
         const val MAX_RESULTS_DEFAULT = 3
-        const val THRESHOLD_DEFAULT = 0.5F
+        const val THRESHOLD_DEFAULT = 0.75F
         const val OTHER_ERROR = 0
         const val GPU_ERROR = 1
 

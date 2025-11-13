@@ -5,17 +5,15 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
-import com.google.mediapipe.examples.objectdetection.R
-import com.google.mediapipe.examples.objectdetection.databinding.ActivityMainBinding
+import com.example.objectdetection.databinding.ActivityMainBinding
+import com.example.objectdetection.R
 
 /**
- * FaceAI SDK是设备端可离线不联网Android 人脸识别、活体检测、人脸图质量检测
- * 以及人脸搜索（1:N和M:N）SDK，可快速集成实现人脸识别搜索功能。
- * SDK 源码 https://github.com/AnyLifeZLB/FaceVerificationSDK
  *
+ * FaceAISDK是设备端可离线不联网人脸识别、活体检测以及人脸搜索SDK
+ * SDK接入源码 https://github.com/FaceAISDK/FaceAISDK_Android
  */
 class MainActivity : AppCompatActivity() {
-
     private lateinit var activityMainBinding: ActivityMainBinding
     private val viewModel: MainViewModel by viewModels()
 

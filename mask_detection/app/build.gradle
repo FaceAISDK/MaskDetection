@@ -5,12 +5,13 @@ apply plugin: "androidx.navigation.safeargs"
 apply plugin: 'de.undercouch.download'
 
 android {
-    compileSdkVersion 32
+    compileSdkVersion 36
+    namespace 'com.example.objectdetection'
     defaultConfig {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         applicationId "com.examples.objectdetection"
         minSdkVersion 24
-        targetSdkVersion 32
+        targetSdkVersion 36
         versionCode 1
         versionName "1.0.0"
     }
@@ -47,25 +48,25 @@ android {
 
 dependencies {
     // Kotlin lang
-    implementation 'androidx.core:core-ktx:1.6.0'
+    implementation 'androidx.core:core-ktx:1.17.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
 
     // App compat and UI things
-    implementation 'androidx.appcompat:appcompat:1.3.1'
-    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.1'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    implementation 'com.google.android.material:material:1.0.0'
-    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
-    implementation 'androidx.fragment:fragment-ktx:1.5.4'
+    implementation 'androidx.appcompat:appcompat:1.7.1'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.9.4'
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
+    implementation 'com.google.android.material:material:1.13.0'
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.1.0'
+    implementation 'androidx.fragment:fragment-ktx:1.8.9'
 
     // Navigation library
-    def nav_version = "2.3.5"
+    def nav_version = "2.9.6"
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
 
     // CameraX core library
-    def camerax_version = '1.1.0'
+    def camerax_version = '1.5.1'
     implementation "androidx.camera:camera-core:$camerax_version"
 
     // CameraX Camera2 extensions
@@ -78,7 +79,7 @@ dependencies {
     implementation "androidx.camera:camera-view:$camerax_version"
 
     //WindowManager
-    implementation 'androidx.window:window:1.0.0-alpha09'
+    implementation 'androidx.window:window:1.5.0'
 
     // Unit testing
     testImplementation 'androidx.test.ext:junit:1.1.3'
@@ -94,5 +95,5 @@ dependencies {
     androidTestImplementation "androidx.test:runner:1.4.0"
     androidTestImplementation "androidx.test.espresso:espresso-core:3.4.0"
 
-    implementation 'com.google.mediapipe:tasks-vision:0.10.14'
+    implementation 'com.google.mediapipe:tasks-vision:0.10.29'
 }

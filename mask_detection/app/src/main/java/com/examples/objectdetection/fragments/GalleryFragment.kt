@@ -18,7 +18,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import com.examples.objectdetection.MainViewModel
 import com.examples.objectdetection.ObjectDetectorHelper
-import com.google.mediapipe.examples.objectdetection.databinding.FragmentGalleryBinding
+import com.example.objectdetection.databinding.FragmentGalleryBinding
 import com.google.mediapipe.tasks.vision.core.RunningMode
 import java.util.concurrent.Executors
 import java.util.concurrent.ScheduledExecutorService

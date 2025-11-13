@@ -22,8 +22,8 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.Navigation
 import com.examples.objectdetection.MainViewModel
 import com.examples.objectdetection.ObjectDetectorHelper
-import com.google.mediapipe.examples.objectdetection.R
-import com.google.mediapipe.examples.objectdetection.databinding.FragmentCameraBinding
+import com.example.objectdetection.R
+import com.example.objectdetection.databinding.FragmentCameraBinding
 import com.google.mediapipe.tasks.vision.core.RunningMode
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
